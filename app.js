@@ -1,5 +1,9 @@
-import { initializeApp } from 'firebase/app';
-import { doc, getDocs, addDoc, updateDoc, getFirestore, collection } from "firebase/firestore";
+// import { initializeApp } from 'firebase/app';
+// import { doc, getDocs, addDoc, updateDoc, getFirestore, collection } from "firebase/firestore";
+
+
+import { initializeApp } from "https://www.gstatic.com/firebasejs/9.4.0/firebase-app.js";
+import { getFirestore, doc, getDoc, getDocs, collection } from "https://www.gstatic.com/firebasejs/9.4.0/firebase-firestore.js";
 
 const sw = new URL('service-worker.js', import.meta.url)
 if ('serviceWorker' in navigator) {
