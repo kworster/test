@@ -1,15 +1,11 @@
-// import { initializeApp } from 'firebase/app';
-// import { doc, getDocs, addDoc, updateDoc, getFirestore, collection } from "firebase/firestore";
-
-
-import { initializeApp } from "https://www.gstatic.com/firebasejs/9.4.0/firebase-app.js";
-import { getFirestore, doc, getDoc, getDocs, collection } from "https://www.gstatic.com/firebasejs/9.4.0/firebase-firestore.js";
+import { initializeApp } from 'firebase/app';
+import { doc, getDocs, addDoc, updateDoc, getFirestore, collection } from "firebase/firestore";
 
 const sw = new URL('service-worker.js', import.meta.url)
 if ('serviceWorker' in navigator) {
     const s = navigator.serviceWorker;
     s.register(sw.href, {
-        scope: '/tests/'
+        scope: '/test/'
     })
         .then(_ => console.log('Service Worker Registered for scope:', sw.href, 'with', import.meta.url))
         .catch(err => console.error('Service Worker Error:', err));
