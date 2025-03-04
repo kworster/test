@@ -1,12 +1,12 @@
 const CACHE_NAME = 'event-scheduler-pwa-cache-v1';
 const FILES_TO_CACHE = [
-    '/test',
-    '/test/index.html',
-    '/test/style.css',
-    '/test/app.js',
-    '/test/manifest.json',
-    '/test/icons/icon-128.png',
-    '/test/icons/icon-512.png'
+    './',
+    './index.html',
+    './style.css',
+    './app.js',
+    './manifest.json',
+    './icons/icon-128.png',
+    './icons/icon-512.png'
 ];
 
 self.addEventListener('install', (event) => {
