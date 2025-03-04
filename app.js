@@ -12,13 +12,14 @@ if ('serviceWorker' in navigator) {
 }
 
 const firebaseConfig = {
-    apiKey: "AIzaSyCuWLYWUJ2R4v6ptAKcL2jmXJPDSGl7uW0",
-    authDomain: "info5146.firebaseapp.com",
-    projectId: "info5146",
-    storageBucket: "info5146.firebasestorage.app",
-    messagingSenderId: "711911517967",
-    appId: "1:711911517967:web:cadd485436fb294a85987a"
-};
+    apiKey: "AIzaSyAXIYCqDH1bTZ_mqhUMb7XTht5Uuqn6zQ8",
+    authDomain: "test-10716.firebaseapp.com",
+    projectId: "test-10716",
+    storageBucket: "test-10716.firebasestorage.app",
+    messagingSenderId: "628302111178",
+    appId: "1:628302111178:web:51974bc78fcfd88e136f33",
+    measurementId: "G-CE57LFBWRE"
+  };
   
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
